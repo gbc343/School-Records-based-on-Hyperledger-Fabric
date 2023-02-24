@@ -6,7 +6,7 @@ cd fabric-samples/test-network
 
 ./network.sh up createChannel -ca -s couchdb
 
-./network.sh deployCC -ccn balance_transfer -ccv 1.0 -ccp ../../account_balance_transfer_app/balance_transfer -ccl javascript
+./network.sh deployCC -ccn chaincode -ccv 1.0 -ccp ../../studentrecord/chaincode -ccl javascript
 
 Set environment variables:
 export CORE_PEER_TLS_ENABLED=true
